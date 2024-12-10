@@ -13,7 +13,7 @@
       margin: 0;
       font-weight: 300;
       font-family: 'League Spartan', sans-serif;
-      background-color: #ECEAE0;
+      background-color: White;
       color: #ECEAE0;
       font-size: 1.667vw;
     }
@@ -90,28 +90,39 @@
       display: block;
       width: 47.5vw;
       height: auto; /* Maintain aspect ratio */
-      margin: 5vw;
+      margin-left: 5vw;
+      margin-top: vw;
     }
 
     .welcome-text {
-        width: 100%;
+      width: 47.5vw;
+      line-height: 2;
+      color: #474448;
+      margin: 0;
+      padding-left: 5vw;
+      padding-top: 2.5vw;
     }
 
-    /* Sidebar */
     .sidebar {
-        flex: 1;
+      padding-right: 5vw;
     }
+    
+    .sidebar h1 {
+    margin-bottom: 2vw;
+    color: #214E34;
+}
 
     .sidebar-button {
-        display: block;
-        width: 100%;
-        height: 12vw;
-        margin: 4vw 0;
-        text-align: center;
-        line-height: 12vw; /* Centers text vertically */
-        background-color: #5C7457;
-        color: #ECEAE0;
-        font-size: 1.667vw;
+      display: block;
+      width: 32.5vw;
+      height: 12.5vw;
+      margin-top: 4vw;
+      text-align: center;
+      line-height: 12.5vw;
+      background-color: #5C7457;
+      color: #ECEAE0;
+      font-size: 1.667vw;
+      text-decoration: none;
     }
 
     /* Footer */
@@ -148,21 +159,21 @@
   <div class="content">
       <section class="main-content">
           <h1>Hello, I'm Nila!</h1>
-          <img src="images/profile-picture.jpg" alt="Profile Picture" class="profile-image">
-          <p class="welcome-text">[Your welcome blurb goes here...]</p>
+          <img src="Untitled design.jpg" alt="Profile Picture" class="profile-image">
+          <p class="welcome-text"> I’m a second-year Global Business and Digital Arts (GBDA) student at the University of Waterloo and I’m passionate about telling stories through design. I enjoy combining creativity and technology to find innovative solutions to problems. Here, you can explore my portfolio to learn more about me and my work. I’m always happy to connect, thanks for stopping by! </p>
       </section>
 
       <!-- Side Bar -->
       <aside class="sidebar">
-          <h2>Explore:</h2>
+          <h1>Explore:</h1>
           <a href="about.html" class="sidebar-button">About Me</a>
-          <a href="projects.html" class="sidebar-button">My Projects & Experience</a>
+          <a href="projects.html" class="sidebar-button">My Projects &amp Experience</a>
           <a href="contact.html" class="sidebar-button">Contact Information</a>
       </aside>
   </div>
 
   <!-- Footer -->
-  <div id = "footer">
+  <div id="footer">
       <p>&copy; 2024 Nila Sivapragasam</p>
   </div>
 </body>
