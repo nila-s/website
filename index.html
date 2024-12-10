@@ -21,6 +21,8 @@
         font-family: 'League Spartan', sans-serif;
         font-weight: 600;
         font-size: 5vw;
+        padding-left: 5vw;
+
     }
 
     h1 {
@@ -32,48 +34,45 @@
     }
 
     p {
-        font-size: 1.667vw;
-        color: #ECEAE0;
+      font-size: 1.667vw;
+      color: #ECEAE0;
+      padding: 5vw
+    
     }
     
-    /* Header */
-    header {
+    #header {
      background-color: #214E34;
      height: 17.5vw; /* Scaled height */
      display: flex;
      align-items: center;
      justify-content: left;
-     padding-left: 5vw;
+     text-align: left;
+     line-height: 1; 
     }
 
-    .header-title {
-      text-align: left;
-      line-height: 1;      
+    #menu-bar {
+      background-color: #979B8D;
+      height: 5vw; 
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      padding-left: 5vw;
     }
-
-    .menu-bar {
-        background-color: #979B8D;
-        height: 5vw; /* Proportional height */
+    
+    #menu-bar ul {
         display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .menu-bar ul {
-        list-style: none;
-        margin: 0;
+        justify-content: left;
         padding: 0;
-        display: flex;
-        gap: 2vw;
+        gap: 5vw;
     }
 
-    .menu-bar ul li {
+    #menu-bar ul li {
         display: inline;
     }
 
     .menu-bar ul li a {
-        color: #ECEAE0;
-        font-size: 1.8vw;
+      text-decoration: none;
+      font-size: 1.8vw;
     }
 
     /* Content Layout */
@@ -115,31 +114,31 @@
         line-height: 12vw; /* Centers text vertically */
         background-color: #5C7457;
         color: #ECEAE0;
-        font-size: 1.8vw;
+        font-size: 1.667vw;
     }
 
     /* Footer */
-    footer {
-        background-color: #214E34;
-        height: 8vw; /* Proportional height */
-        display: flex;
-        align-items: center;
-        padding-left: 5vw;
-        color: #ECEAE0;
-        font-size: 1.8vw;
+    #footer {
+      background-color: #214E34;
+      height: 5vw; /* Proportional height */
+      display: flex;
+      align-items: center;
+      color: #ECEAE0;
+      font-size: 1.667vw;
+      clear: both;
     }
   </style>
 </head>
 <body>
   <!-- Header -->
   <header>
-      <div class="header-title">
+      <div id="header">
           <h2>NILA<br>SIVAPRAGASAM</h2>
       </div>
   </header>
 
   <!-- Menu Bar -->
-  <nav class="menu-bar">
+  <nav id="menu-bar">
       <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -166,8 +165,8 @@
   </div>
 
   <!-- Footer -->
-  <footer>
-      <p>&copy; Nila Sivapragasam</p>
-  </footer>
+  <div id = "footer">
+      <p>&copy; 2024 Nila Sivapragasam</p>
+  </div>
 </body>
 </html>
