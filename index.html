@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Nila Sivapragasam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    /* General Styles */
+    body {
+        margin: 0;
+        font-family: 'League Spartan', sans-serif;
+        background-color: #ECEAE0;
+        color: #ECEAE0;
+    }
+
+    h1, h2 {
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 600;
+        font-size: 5vw;
+    }
+
+    h1 {
+      color: #214E34;
+    }
+
+    h2 {
+      color: #ECEAE0;
+    }
+
+    p {
+        font-size: 1.667vw;
+        color: #ECEAE0;
+    }
+
+    /* Header */
+    header {
+     background-color: #214E34;
+     height: 17.5vw; /* Scaled height */
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     padding-left: 5vw;
+    }
+
+    .header-title {
+      text-align: left;
+      line-height: 1.25;      
+    }
+
+    /* Menu Bar */
+    .menu-bar {
+        background-color: #979B8D;
+        height: 5vw; /* Proportional height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-bar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 2vw;
+    }
+
+    .menu-bar ul li {
+        display: inline;
+    }
+
+    .menu-bar ul li a {
+        color: #ECEAE0;
+        font-size: 1.8vw;
+    }
+
+    /* Content Layout */
+    .content {
+        display: flex;
+        max-width: 100%;
+        margin: 0 auto;
+        gap: 5vw;
+        padding-top: 5vw;
+    }
+
+    /* Main Content */
+    .main-content {
+        flex: 2;
+    }
+
+    .profile-image {
+        display: block;
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        margin: 2vw 0;
+    }
+
+    .welcome-text {
+        width: 100%;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        flex: 1;
+    }
+
+    .sidebar-button {
+        display: block;
+        width: 100%;
+        height: 12vw;
+        margin: 4vw 0;
+        text-align: center;
+        line-height: 12vw; /* Centers text vertically */
+        background-color: #5C7457;
+        color: #ECEAE0;
+        font-size: 1.8vw;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #214E34;
+        height: 8vw; /* Proportional height */
+        display: flex;
+        align-items: center;
+        padding-left: 5vw;
+        color: #ECEAE0;
+        font-size: 1.8vw;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+      <div class="header-title">
+          <h2>NILA<br>SIVAPRAGASAM</h2>
+      </div>
+  </header>
+
+  <!-- Menu Bar -->
+  <nav class="menu-bar">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">My Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </nav>
+
+  <!-- Main Content Area -->
+  <div class="content">
+      <section class="main-content">
+          <h1>Hello, I'm Nila!</h1>
+          <img src="images/profile-picture.jpg" alt="Profile Picture" class="profile-image">
+          <p class="welcome-text">[Your welcome blurb goes here...]</p>
+      </section>
+
+      <!-- Side Bar -->
+      <aside class="sidebar">
+          <h2>Explore:</h2>
+          <a href="about.html" class="sidebar-button">About Me</a>
+          <a href="projects.html" class="sidebar-button">My Projects & Experience</a>
+          <a href="contact.html" class="sidebar-button">Contact Information</a>
+      </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+      <p>&copy; Nila Sivapragasam</p>
+  </footer>
+</body>
+</html>
